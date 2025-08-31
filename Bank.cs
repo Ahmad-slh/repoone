@@ -26,7 +26,7 @@ class Program
         {
             
             accounts[customerName] = depositAmount;
-            Console.WriteLine($"{customerName} was not found. New account created with balance {accounts[customerName]}.");
+            Console.WriteLine($"{customerName} not found New account created with balance {accounts[customerName]}.");
         }
     }
 }
